@@ -32,7 +32,6 @@ col_status.forEach((columns) => {
 
 function dragOver(e) {
   e.preventDefault();
-  //   console.log("dragOver is triggered");
 }
 function dragEnter() {
   this.style.border = "1px dashed red";
